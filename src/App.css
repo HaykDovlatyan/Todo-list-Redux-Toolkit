@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all .6s ease-in;
+}
+
+.appp {
+  height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #000;
+  color: white;
+  gap: 1rem;
+}
+.mekn {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.apex {
+  width: 500px;
+  height: 50px;
+  background: rgb(40, 39, 39);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+.apex > button {
+  border: none;
+  outline: none;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: sans-serif;
+  color: red;
+  cursor: pointer;  
+  position: absolute;
+  font-size: 22px;
+  left: 60%;
+}
+form > input {
+   width: 400px;
+   height: 40px;
+   border: none;
+   outline: none;
+}
+form > button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: rgb(255, 115, 0);
+}
+
+form > h2 {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
